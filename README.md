@@ -9,16 +9,18 @@ that, when selected, will load or create the corresponding file.
 
 Installation
 ------------
-Copy the plugin/markdown-links.vim file into the $HOME/.vim/plugin/ directory
-Copy the syntax/markdown-links.vim file to the $HOME/.vim/syntax/ directory
-Copy the ftdetect/markdown-links.vim file to the $HOME/.vim/ftdetect/ directory
+
+- Copy the plugin/markdown-links.vim file into the $HOME/.vim/plugin/ directory
+- Copy the syntax/markdown-links.vim file to the $HOME/.vim/syntax/ directory
+- Copy the ftdetect/markdown-links.vim file to the $HOME/.vim/ftdetect/ directory
 
 Usage
 -----
-Start with a *.mdl file
-Hit the ENTER key when the cursor is on a word you want to link
-The corresponding file is loaded/created in the current buffer and saved
-Hit Shift + ENTER to go back
+
+- Start with a *.mdl file
+- Hit the ENTER key when the cursor is on a word you want to link
+- The corresponding file is loaded/created in the current buffer and saved
+- Hit Shift + ENTER to go back
 
 New files are created in the same directory as the current file and
 will have the same extension as the current file. This means that linked files
@@ -42,9 +44,11 @@ Notes
 
 Contribute
 ----------
+
 You can fork this project on Github : https://github.com/cnodell/markdown_links
 
 Credits
 -------
+
 This plugin is a modified version of Henri Bourcereau's WikiLink plugin
 which can be found on Github: https://github.com/mmai/wikilink
