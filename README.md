@@ -20,7 +20,7 @@ Usage
 - Start with a *.mdl file
 - Hit the ENTER key when the cursor is on a word you want to link
 - The corresponding file is loaded/created in the current buffer and saved
-- Hit Shift + ENTER to go back
+- Hit BACKSPACE to go back
 
 New files are created in the same directory as the current file and
 will have the same extension as the current file. This means that linked files

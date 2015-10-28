@@ -1,7 +1,5 @@
 " File: markdown-links.vim
 " Author: Charles Nodell
-" Version: 0.1
-" Last Modified: October 27, 2015
 
 function! MarkdownLinkGetWord()
   let word = expand("<cword>")
@@ -85,4 +83,5 @@ if fnamemodify(bufname("%"), ":e") ==? "mdl"
   endif
   "Shift+Return to return to the previous buffer 
 "  nmap <S-CR> :b#<CR>
+  nnoremap <bs> :b#<cr>
 endif
